@@ -19,6 +19,8 @@ app.use("/api/auth", require("./routes/auth.routes"));
 app.use("/api/products", require("./routes/product.routes"));
 app.use("/api/cart", require("./routes/cart.routes"));
 app.use("/api/checkout", require("./routes/checkout.routes"));
+app.use("/api/stripe", require("./routes/stripe.routes"));
+
 
 
 
