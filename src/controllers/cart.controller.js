@@ -16,7 +16,7 @@ const addToCart = async (req, res) => {
     }
 
     
-    const itemIndex = cart.items.findIndex(item => item.productId.toString() === productId);
+    const itemIndex = cart.items.findIndex(item => item.productId.toString() === productId.toString());
 
     if (itemIndex > -1) {
       
